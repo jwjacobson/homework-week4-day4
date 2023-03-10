@@ -54,6 +54,9 @@ class LinkedList:
             print(node) 
             node = node.next
     
+    
+# I just copied brian for this one
+
     def remove(self, value_to_remove):
         prev_node = self.head
         if prev_node.value == value_to_remove:
